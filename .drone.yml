@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: plugins/docker
+    repo: memosa/php-demo
+    tags: latest
+    dockerfile: Dockerfile
+    registry: registry.cn-beijing.aliyuncs.com
+    secrets: [docker_username, docker_password]
