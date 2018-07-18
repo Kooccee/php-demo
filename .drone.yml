@@ -1,7 +1,7 @@
 pipeline:
   build:
     image: plugins/docker
-    repo: memosa/php-demo
+    repo: registry.cn-beijing.aliyuncs.com/memosa/php-demo
     tags: latest
     dockerfile: Dockerfile
     registry: registry.cn-beijing.aliyuncs.com
